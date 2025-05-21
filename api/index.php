@@ -162,7 +162,7 @@ if (!empty($_POST['roll_data'])) {
   </div>
 
   <div class="footer">
-    <a href="https://replit.com/@superskin.gg/provably-fair-validator" target="_blank">Source Code</a>
+    <a href="https://github.com/superskingg/provably-fair" target="_blank">Source Code</a>
   </div>
 
   <script src="https://replit.com/public/js/replit-badge-v2.js" theme="light" position="bottom-right"></script>
