@@ -124,6 +124,9 @@ if (!empty($_POST['roll_data'])) {
   $message = checkRegularRoll($input);
 }
 
+$gmp_loaded = extension_loaded('gmp');
+$gmp_message = $gmp_loaded ? '<p class="success">GMP extension is loaded.</p>' : '<p class="error">GMP extension is NOT loaded.</p>';
+
 ?>
 
 <html>
@@ -150,6 +153,7 @@ if (!empty($_POST['roll_data'])) {
 </head>
 <body>
   <div class="messages">
+    <?= $gmp_message ?>
     <?= $message ?>
   </div>
 
