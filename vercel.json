@@ -1,10 +1,7 @@
 {
   "functions": {
     "api/*.php": {
-      "runtime": "vercel-php@0.7.2",
-      "config": {
-        "phpIniPath": "build/php.ini"
-      }
+      "runtime": "vercel-php@0.7.2"
     }
   },
   "routes": [
